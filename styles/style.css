@@ -5,8 +5,36 @@
 ***/
 
 
+html, body {
+	height: 100%;
+	margin:0;
+	background-color: black;
+	color: white;
+	text-align: justify;
+	font-family: "Verdana", sans-serif;
+}
 
+a:link{
 
+}
+
+a:visited{
+
+}
+
+a{
+	text-decoration: none;
+	color: #C2FFD7;
+}
+
+a:hover{
+	
+	color: white;
+}
+
+a:visited{
+
+}
 
 /***
 
@@ -23,16 +51,37 @@
 	height: 100%;
 }
 
+#hero-header {
+	padding-top: 5%;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	text-align: center;
+	font-family: "Rock Salt";
+	font-size: 500%;
+	color: #C2FFD7;
+}
+
 h2{
 	font-family: "Over the Rainbow", cursive;
+	text-align: center;
 }
 
 .nav{
 	box-sizing: border-box;
+	padding: 1%, 1%, 2%, 2%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
 
 #brand{
 	display: inline;
+	font-family: "Rock Salt";
 }
 
 ul#menu{
@@ -42,6 +91,8 @@ ul#menu{
 
 ul#menu li{
 	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
@@ -52,6 +103,13 @@ ul#menu li{
 
 ***/
 
+.main{
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 1px solid white;
+}
 
 h3{
 	font-size: 300%;
